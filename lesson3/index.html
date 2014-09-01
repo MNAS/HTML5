@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style/style.css">
+  <script type="text/javascript"  src="js/script.js"> </script>
+</head>
+
+<body onload="listLoad();">
+  <div id="header"> <h1>Пример работы с localStorage</h1></div>
+    
+  <div id="notes"> <h3> Список записей</h3> <ol id="notelist"></ol> </div>
+  
+  <div id="note">
+    <form id="formnote">
+      <fieldset>
+        <table>
+          <tr>
+            <td><label class="notefield">Наименование</label></td>
+            <td colspan=2> <input id="notename" type="text" class="notefield"></input> </td>
+          </tr>
+          <tr>
+            <td><label class="notefield">Текст записи</label></td>
+            <td colspan=2><textarea id="notecontent" rows=10></textarea></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td class="notebtn"><button id="save" type="submit" onclick="saveNote();">Сохранить</button></td>
+            <td class="notebtn"><button id="delete" type="submit" onclick="deleteNote();">Удалить</button></td>
+          </tr>
+        </table>
+      </fieldset>
+    </form>
+  </div>
+  
+  <div id="footer"> <p class="footertext">2014 г.</p></div>
+</body>
+</html>
+

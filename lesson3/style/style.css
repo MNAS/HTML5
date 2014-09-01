@@ -1,0 +1,101 @@
+body 
+{
+  background-color:#F7F7F7;
+}
+
+#notes
+{
+  float:left;
+  width:250px;
+}
+
+#note
+{
+  float:left;
+  margin-left:20px;
+}
+
+#footer
+{
+  clear:left;
+  text-align:center;
+  font-style:italic;
+}
+
+#formnote
+{
+  margin-top: 30px;
+}
+
+#formnote
+{
+  margin-top: 30px;
+}
+
+#notecontent, #notename
+{
+  width:450px;
+}
+
+.notebtn
+{
+  text-align:center;
+}
+
+td
+{
+  vertical-align:top;
+}
+
+h1, h3
+{
+  font-style:italic;
+  text-align:center;
+}
+
+fieldset 
+{
+  border:1px dashed #CCC;
+  padding:10px;
+}
+
+label 
+{
+  width:142px;
+  height:32px;
+  background-color:#CCCCCC;
+  float:left;
+  display: block;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  letter-spacing: -1px;
+  font-weight: normal;
+  line-height: 1.1;
+  color:#555;
+}
+
+.notefield
+{
+  margin-top:3px;
+  margin-right:2px;
+  padding-top:11px;
+  padding-left:6px;
+  height:32px; 
+}
+
+a:link, a:visited
+{
+  color:#666;
+  font-style:italic;
+  font-weight:500;
+  text-decoration:none;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+a:hover, li:hover
+{
+  color:#666;
+  font-style:italic;
+  font-weight:bolder;
+  cursor: pointer;
+}
